@@ -7,7 +7,7 @@ const sequelize = require('./config/db');
 const User = require('./models/User');
 const routes = require('./routes');
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(routes);
 
